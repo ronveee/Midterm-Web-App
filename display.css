@@ -1,0 +1,500 @@
+
+nav{
+    background-color: #4379F2;
+}
+
+.nav-link:hover{
+    color:aliceblue;
+
+
+}
+
+.nav-link{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:17px;
+
+}
+
+.navbar-brand {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+}
+
+#Home h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+
+}
+
+#Home p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:18px;
+
+}
+
+#Features{
+    padding-left:100px;
+    padding-right:100px;
+    margin: 50px;
+    
+
+}
+
+#Features h2{
+    font-family: "Roboto", sans-serif;
+
+}
+
+#Products{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#Products{
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.container{
+position: relative;
+}
+.container .wrapper{
+    width: 60vw;
+    height: 95vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .6);
+    margin: 5rem auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.container .wrapper-holder{
+    display: grid;
+    grid-template-columns: repeat(6, 100%);
+    height: 100%;
+    width: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+    
+
+.container #slider-img-1{
+    background-image: url(asset/bioderm-main.jpg);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+
+.container #slider-img-2{
+    background-image: url(asset/bioderm-bloom.jpg);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+
+.container #slider-img-3{
+    background-image: url(asset/bioderm-fresh.jpg);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+.container #slider-img-4{
+    background-image: url(asset/bioderm-pris.webp);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+.container #slider-img-5{
+    background-image: url(asset/bioderm1.jpg);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+.container #slider-img-6{
+    background-image: url(asset/bioderm-timeless.webp);
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+
+
+.container .button-holder .button{
+    background-color: rgb(163, 163, 163);
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+    
+.container .button-holder{
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+    
+}
+
+.button:hover{
+    box-shadow: 0px 0px 7px 4px rgba(0, 255, 255,
+    0.6);
+}
+
+@keyframes slider {
+    0% { transform: translateX(0%); }
+    16.67% { transform: translateX(0%); }
+    33.33% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    66.67% { transform: translateX(-300%); }
+    83.33% { transform: translateX(-400%); }
+    100% { transform: translateX(-500%); }
+}
+
+
+
+
+
+
+
+
+#Purchase.container{
+    padding: 50px 15px;
+    padding-left:100px;
+    padding-right:100px;
+    margin-left: 50px; 
+    margin-right: 50px; 
+    
+    
+    
+}
+
+#Purchase{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #D2E0FB;
+   
+}
+
+.card{
+    transition: all 0.3s;
+    margin: auto;
+
+}
+
+.card:hover{
+    transform: scale(1.15);
+}
+
+
+
+#Reviews {
+    padding: 50px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    .size1{
+        width: 50%;
+        height: auto;
+    }
+}
+
+#Reviews h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    position: relative;
+    
+}
+
+.dropdown-menu, .dropdown-item {
+   
+    
+    left: 50%;
+    
+}
+
+
+.dropdown-item {
+    color: inherit; 
+}
+
+.dropdown-item:hover, 
+.dropdown-item:focus {
+    background-color: inherit; 
+    color: inherit; 
+    cursor: default; 
+}
+
+
+.dropdown-menu {
+    background-color: rgb(223, 222, 222);
+    
+}
+
+#Reviews .row {
+    margin: 0; 
+}
+
+#Contact {
+    border: 2px solid #c2c2c2; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px; 
+    background-color: #f9f9f9;
+    font-family: "Roboto", sans-serif;
+}
+
+#foot{
+    
+    background-color: #ebecec; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:17px;
+
+}
+
+
+#foot.cust:hover{
+    color:aliceblue;
+
+
+}
+
+.cust{
+    transition: color 0.3s ease; 
+    text-decoration: none;
+}
+
+.cust:hover {
+    color: aliceblue; 
+    text-decoration: underline; 
+}
+ 
+
+ .social {
+    font-size: 35px; 
+    color: #9e9d9d; 
+    margin: 10px; 
+    transition: color 0.3s;
+    display: inline-block;
+}
+.social:hover {
+    color:#333333
+}
+
+
+@media (max-width: 575.98px) {
+    /* CSS for phones */
+    
+    .custom-size{
+        width:300px;
+        height: 300px;
+    }
+    .container .wrapper {
+        width: 90vw;
+        height: 50vh;
+    }
+    
+    .container .wrapper-holder {
+        grid-template-columns: repeat(6, 100%);
+    }
+
+    .container .button-holder{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #Reviews {
+        padding: 20px;
+    }
+    .dropdown-item {
+        font-size: 12px;
+        
+    }
+
+    #Reviews img {
+        width: 70%;
+        height: auto;
+    }
+    #Purchase {
+        padding: 20px 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .dropdown-menu {
+        max-width: 95vw; 
+        
+    }
+    .dropdown-item {
+        font-size: 0.7rem; 
+    }
+}
+
+
+   
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* tablets */
+    
+
+    .container .wrapper {
+        width: 90vw;
+        height: 50vh;
+    }
+    
+    .container .wrapper-holder {
+        grid-template-columns: repeat(6, 100%);
+    }
+
+    .container .button-holder{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #Reviews {
+        padding: 30px;
+    }
+
+    .dropdown-item {
+        font-size: 14px;
+    }
+
+    #Reviews img {
+        width: 90%;
+        height: auto;
+    }
+    #Purchase {
+        padding: 30px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    .dropdown-menu {
+        max-width: 90vw; 
+    }
+    .dropdown-item {
+        font-size: 0.9rem; 
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* laptops */
+    .custom-size{
+        width:400px;
+        height: 400px;
+    }
+    .container .wrapper {
+        width: 100vw;
+        height: 50vh;
+    }
+    
+    .container .wrapper-holder {
+        grid-template-columns: repeat(6, 100%);
+    }
+
+    .container .button-holder{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    #Reviews {
+        padding: 50px;
+    }
+
+    .dropdown-item {
+        font-size: 16px;
+    }
+
+    #Reviews img {
+        width: 80%;
+        height: auto;
+    }
+    #Purchase {
+        padding: 50px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+}
+
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /* desktops */
+    .carousel-inner{
+        height: 120vh;
+        width:100vw;
+    }
+    .container .wrapper{
+    width: 60vw;
+    height: 95vh;
+    
+
+
+    }
+    #Reviews {
+        padding: 50px;
+    }
+
+    .dropdown-item {
+        font-size: 16px;
+    }
+
+    #Reviews img {
+        width: 80%;
+        height: auto;
+    }
+    #Purchase {
+        padding: 50px;
+    }
+
+    .card {
+        width: 80%;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+}
+  
+  
+
